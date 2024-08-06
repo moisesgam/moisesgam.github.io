@@ -1,0 +1,62 @@
+h1 {
+    font-family: Georgia;
+    text-align: center;
+    background-color: #eab43d;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0px;
+}
+.center{
+    text-align: center; 
+    color: #2eadcf;
+    font-weight: bold;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+p{
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+
+}
+
+div {
+    width: 100%;
+}
+
+
+@media (min-width: 600px){
+    div{
+        width: 65%;
+    }
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 500px ) and (max-width: 900px){
+    p {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 970px){
+    p {
+        padding-left: 260px;
+    }
+}
